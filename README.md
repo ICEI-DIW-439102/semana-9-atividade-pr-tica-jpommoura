@@ -5,14 +5,13 @@ Nesta atividade, vamos montar um programa para praticar funções em JavaScript 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
+- Nome:João Pedro Oliveira Monteiro Moura
+- Matricula: 923902
 
 ## Prints do trabalho
 
-<<  COLOQUE A IMAGEM - TELA DE CARDS DE PRODUTOS - AQUI >>
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a5177fa6-4b51-4927-b047-dddfb64be0bb" />
 
-<<  COLOQUE A IMAGEM - TELA DE DETALHE DO PRODUTO - AQUI >>
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4698aeeb-9ebf-4d7d-94e9-82c912349470" />
 
-<<  COLOQUE A IMAGEM - TELA DO CONSOLE - AQUI >>
-
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f655ccbc-5e22-4c80-a802-292278dc015d" />
