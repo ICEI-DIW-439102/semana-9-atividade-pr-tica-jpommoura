@@ -1,13 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NexStore — Catálogo de Produtos</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+
+  <header class="site-header">
+    <h1>NexStore</h1>
+    <p class="header-subtitle">Catálogo de Produtos</p>
+  </header>
+
+  <main class="container">
+
     
+    <section class="filter-bar" aria-label="Filtros de busca">
+      <div class="filter-group">
+        <label for="search-input">Buscar produto</label>
+        <input
+          type="text"
+          id="search-input"
+          placeholder="Digite o nome do produto..."
+          autocomplete="off"
+        />
+      </div>
+
+      <div class="filter-group">
+        <label for="category-select">Categoria</label>
+        <select id="category-select">
+          <option value="">Todas as categorias</option>
+        </select>
+      </div>
+
+      <button id="btn-render" class="btn-primary" type="button">
+        Renderizar
+      </button>
+    </section>
+
+    
+    <section aria-label="Catálogo de produtos">
+      <div id="product-list" class="product-grid" aria-live="polite">
+        
+      </div>
+    </section>
+
+    
+    <section aria-label="Detalhes do produto">
+      <div id="product-details" class="product-details" hidden>
+        
+      </div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
